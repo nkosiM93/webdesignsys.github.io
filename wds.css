@@ -1,0 +1,121 @@
+/* Global box-sizing and reset for margin/padding */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Base body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.colors {
+    width: 100%;
+    padding: 0%;
+    margin-bottom: 30px;
+}
+
+/* Container layout and background */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(238, 238, 238);
+    padding: 65px;
+    ;
+}
+
+/* Heading styles using DM Serif Display font */
+.heading {
+    font-family: "DM Serif Display", Sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+}
+
+/* color boxes styling */
+.color-1,
+.color-2,
+.color-3,
+.color-4 {
+    width: 25%;
+    height: 150px;
+    background-color: #333;
+    border: 0px;
+    display: inline-block;
+    margin: 0px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 60px;
+}
+
+.dark {
+    color: white;
+}
+
+.col-hex {
+    display: inline-block;
+
+}
+
+/* Individual rounded corners for color boxes */
+.color-1 {
+    background-color: #4a5759;
+    margin-right: -5px;
+}
+
+.color-2 {
+    background-color: #b0c4b1;
+    margin-right: -5px;
+}
+
+.color-3 {
+    background-color: #dedbd2;
+    margin-right: -5px;
+}
+
+.color-4 {
+    background-color: #f7e1d7;
+    margin-right: -5px;
+}
+
+.block-headings {
+    font-family: "Oswald", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    border-bottom: 1px solid black;
+    margin-bottom: 18px;
+}
+
+.fonts {
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 33%;
+    font-size: 14px;
+}
+
+.font-1 {
+    font-family: "DM Serif Display", serif;
+}
+
+.font-2 {
+    font-family: "Oswald", sans-serif;
+    /*font-size: 16px;*/
+}
+
+.font-3 {
+    font-family: Arial, sans-serif;
+}
+
+.normal {
+    font-weight: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.ital {
+    font-style: italic;
+}
